@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.jpg" alt="Muksana Akter cover" width="100%" />
+  <img src="./banner.svg" alt="Muksana Akter cover" width="100%" />
 </p>
 
 <h1 align="center">
