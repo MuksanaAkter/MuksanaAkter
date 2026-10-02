@@ -4,12 +4,12 @@
 
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="32" />
-  I'm Muksana!
+  Welcome to my creative space!
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" />
 </h1>
 
 <p align="center">
-  <em>✨ Web & Mobile Developer · Digital Craftsman · Always learning & building ✨</em>
+  <em>✨ Crafting beautiful & performant web & mobile experiences with passion 💜 ✨</em>
 </p>
 
 <p align="center">
@@ -24,16 +24,16 @@
 
 <img align="right" alt="Muksana mascot" width="280" src="./mascot.jpg" />
 
-### 👩‍💻 About me
+### 👩‍💻 A little about me...
 
-I am a **Full Stack / Mobile Developer** who loves crafting smooth, interactive, and high-performance user experiences.
+I'm a passionate **Full Stack & Mobile Developer** who loves turning complex problems into simple, beautiful, and intuitive designs. 
 
-- 💜 Software Developer at **[XIIA](https://www.linkedin.com/company/xiia)**
-- 📱 Building web & mobile apps with **React, Next.js & React Native**
-- 🎨 Pixel-perfect UI, animations, and thoughtful UX
-- ⚡ Backend enough to ship: **Node.js, Express, Firebase, MongoDB**
-- 🌱 Everyday is a learning opportunity
-- 🚀 Always shipping, always growing
+- 💼 Currently working as a Software Developer at **[XIIA](https://www.linkedin.com/company/xiia)**
+- 📱 Building cross-platform apps with **React, Next.js & React Native**
+- 🎨 Deeply focused on **pixel-perfect UIs**, smooth animations, and thoughtful UX
+- ⚡ Capable backend builder: **Node.js, Express, Firebase & MongoDB**
+- 🌱 Constantly exploring new technologies and improving my craft
+- 🚀 Always shipping, always growing!
 
 <br clear="both" />
 

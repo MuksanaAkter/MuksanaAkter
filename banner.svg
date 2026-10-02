@@ -1,44 +1,78 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="300" fill="#0D1117"/>
-  
-  <!-- Geometric Shapes Group 1: Left side -->
-  <!-- Purple Circle outline -->
-  <circle cx="150" cy="220" r="25" stroke="#C084FC" stroke-width="8"/>
-  <!-- Blue Hexagon -->
-  <path d="M 80 80 L 100 65 L 120 80 L 120 110 L 100 125 L 80 110 Z" fill="#60A5FA"/>
-  <!-- Yellow Plus -->
-  <path d="M 250 140 h 12 v -12 h 12 v 12 h 12 v 12 h -12 v 12 h -12 v -12 h -12 z" fill="#FBBF24"/>
-  <!-- Green Square -->
-  <rect x="350" y="60" width="30" height="30" stroke="#34D399" stroke-width="6" transform="rotate(20 350 60)"/>
-  <!-- Red Circle filled -->
-  <circle cx="280" cy="260" r="12" fill="#F87171"/>
-  
-  <!-- Geometric Shapes Group 2: Right side -->
-  <!-- Green Circle filled -->
-  <circle cx="1100" cy="90" r="15" fill="#34D399"/>
-  <!-- Yellow Square outline -->
-  <rect x="950" y="200" width="35" height="35" stroke="#FBBF24" stroke-width="8" transform="rotate(45 950 200)"/>
-  <!-- Purple Hexagon outline -->
-  <path d="M 1050 140 L 1070 125 L 1090 140 L 1090 170 L 1070 185 L 1050 170 Z" stroke="#C084FC" stroke-width="6"/>
-  <!-- Red Plus -->
-  <path d="M 850 80 h 10 v -10 h 10 v 10 h 10 v 10 h -10 v 10 h -10 v -10 h -10 z" fill="#F87171"/>
-  <!-- Blue Circle outline -->
-  <circle cx="900" cy="250" r="18" stroke="#60A5FA" stroke-width="6"/>
-  <!-- Purple circle filled -->
-  <circle cx="1150" cy="220" r="28" fill="#C084FC"/>
+  <defs>
+    <!-- Rich dark purple gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#2e1065"/>
+    </linearGradient>
+    
+    <!-- Soft glowing orbs for a dreamy effect -->
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d946ef" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
 
-  <!-- Geometric Shapes Group 3: Middle scattered -->
-  <!-- Small Blue Circle -->
-  <circle cx="750" cy="60" r="8" fill="#60A5FA"/>
-  <!-- Small Yellow Plus -->
-  <path d="M 450 240 h 8 v -8 h 8 v 8 h 8 v 8 h -8 v 8 h -8 v -8 h -8 z" fill="#FBBF24"/>
-  <!-- Small Red Square -->
-  <rect x="500" y="40" width="15" height="15" fill="#F87171" transform="rotate(15 500 40)"/>
-  <!-- Small Green Circle -->
-  <circle cx="700" cy="260" r="10" stroke="#34D399" stroke-width="4"/>
+    <!-- Text Glow -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Dreamy glowing background orbs -->
+  <circle cx="200" cy="150" r="250" fill="url(#glow1)"/>
+  <circle cx="1000" cy="200" r="300" fill="url(#glow2)"/>
+  
+  <!-- Cute Geometric Shapes Group 1: Left side -->
+  <!-- Pink Circle outline -->
+  <circle cx="150" cy="220" r="22" stroke="#FF9AA2" stroke-width="5" fill="none"/>
+  <!-- Mint rounded rectangle -->
+  <rect x="80" y="70" width="28" height="28" rx="8" fill="#B5EAD7" transform="rotate(15 80 70)"/>
+  <!-- Soft Yellow Plus -->
+  <path d="M 250 130 h 10 v -10 h 10 v 10 h 10 v 10 h -10 v 10 h -10 v -10 h -10 z" fill="#FFDAC1" rx="2"/>
+  <!-- Lilac Circle filled -->
+  <circle cx="350" cy="80" r="14" fill="#C7CEEA"/>
+  <!-- Peach Star-like / diamond -->
+  <polygon points="280,240 288,255 305,260 288,265 280,280 272,265 255,260 272,255" fill="#FFB7B2"/>
+  
+  <!-- Cute Geometric Shapes Group 2: Right side -->
+  <!-- Mint Circle filled -->
+  <circle cx="1100" cy="90" r="16" fill="#B5EAD7"/>
+  <!-- Lilac square outline -->
+  <rect x="950" y="200" width="28" height="28" rx="6" stroke="#C7CEEA" stroke-width="5" fill="none" transform="rotate(45 950 200)"/>
+  <!-- Pink triangle -->
+  <polygon points="1050,140 1070,170 1030,170" fill="#FF9AA2" transform="rotate(20 1050 155)"/>
+  <!-- Yellow Circle outline -->
+  <circle cx="860" cy="80" r="10" stroke="#FFDAC1" stroke-width="3" fill="none"/>
+  <!-- Peach Circle outline -->
+  <circle cx="920" cy="240" r="18" stroke="#FFB7B2" stroke-width="5" fill="none"/>
+  <!-- Lilac circle filled -->
+  <circle cx="1140" cy="220" r="22" fill="#C7CEEA"/>
+
+  <!-- Cute Geometric Shapes Group 3: Middle scattered -->
+  <!-- Small Pink Circle -->
+  <circle cx="750" cy="70" r="7" fill="#FF9AA2"/>
+  <!-- Small Peach Plus -->
+  <path d="M 450 240 h 7 v -7 h 7 v 7 h 7 v 7 h -7 v 7 h -7 v -7 h -7 z" fill="#FFB7B2"/>
+  <!-- Small Mint Square -->
+  <rect x="490" y="50" width="10" height="10" rx="2" fill="#B5EAD7" transform="rotate(-15 490 50)"/>
+  <!-- Small Yellow Circle -->
+  <circle cx="700" cy="250" r="8" stroke="#FFDAC1" stroke-width="3" fill="none"/>
+
+  <!-- Decorative Sparkles (Stars) -->
+  <path d="M 180 120 Q 190 120 190 110 Q 190 120 200 120 Q 190 120 190 130 Q 190 120 180 120 Z" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M 980 100 Q 990 100 990 90 Q 990 100 1000 100 Q 990 100 990 110 Q 990 100 980 100 Z" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M 400 180 Q 405 180 405 175 Q 405 180 410 180 Q 405 180 405 185 Q 405 180 400 180 Z" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M 780 220 Q 785 220 785 215 Q 785 220 790 220 Q 785 220 785 225 Q 785 220 780 220 Z" fill="#FFFFFF" opacity="0.7"/>
 
   <!-- Text -->
-  <text x="600" y="135" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#E2E8F0" text-anchor="middle" letter-spacing="3">HI, I'M</text>
-  <text x="600" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">MUKSANA AKTER</text>
+  <text x="600" y="135" font-family="'Nunito', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#E2E8F0" text-anchor="middle" letter-spacing="4">HI, I'M</text>
+  <text x="600" y="205" font-family="'Nunito', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="62" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2" filter="url(#textGlow)">MUKSANA AKTER</text>
 </svg>
