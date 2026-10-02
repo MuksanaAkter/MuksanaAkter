@@ -78,7 +78,7 @@ I'm a passionate **Full Stack & Mobile Developer** who loves turning complex pro
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MuksanaAkter&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MuksanaAkter&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true" alt="GitHub stats" height="165" />
   <img src="https://github-readme-streak-stats.demolab.com/?user=MuksanaAkter&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub streak" height="165" />
 </p>
 
