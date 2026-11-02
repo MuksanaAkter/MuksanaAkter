@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="90" viewBox="0 0 1000 90" role="img" aria-labelledby="title">
+  <title id="title">Made with curiosity, care, and a little purple.</title>
+  <path d="M0 42Q250 80 500 42T1000 42V90H0Z" fill="#a78bfa" opacity=".12"/>
+  <path d="M0 62Q250 30 500 62T1000 62V90H0Z" fill="#a78bfa" opacity=".16"/>
+  <text x="500" y="35" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#9b83c7">Made with curiosity, care, and a little purple.</text>
+</svg>
